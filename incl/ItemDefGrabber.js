@@ -175,8 +175,6 @@ var ItemDefGrabber = (function(UICtrl) {
 
 		var items = dataArray.join("");
 
-		console.log(currentId);
-
 		postRequest(items, function(response) {
 
 			if (response == "true") {
